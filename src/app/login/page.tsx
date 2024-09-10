@@ -107,7 +107,7 @@ const LoginPage = () => {
 
             <div className="px-8 pb-12 pt-12">
               <h2 className="tracking-tight font-bold text-3xl">
-                Login Last Minute Local Host
+                Login Stay Runners Friend with Frdige being
               </h2>
 
               <div className="w-full h-px bg-zinc-200 my-6" />
@@ -189,7 +189,7 @@ const LoginPage = () => {
                     variant: "secondary",
                   })}
                 >
-                  Become a localhost
+                  Don't have any account?
                 </Link>
               </div>
             </div>

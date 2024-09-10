@@ -79,7 +79,7 @@ const Navbar = () => {
       <MaxWidthWrapper>
         <div className="flex h-20 items-center justify-between border-b border-zinc-200">
           <Link href="/" className="flex z-40 font-semibold text-xl">
-            Last Minute<span className="text-green-600 ml-2">Booking</span>
+            Stay Runners<span className="text-green-600 ml-2">Official</span>
           </Link>
 
           <div className="h-full flex items-center space-x-4">
@@ -148,7 +148,7 @@ const Navbar = () => {
                     className: "hidden sm:flex items-center gap-1",
                   })}
                 >
-                  Become a local host
+                  Become a Friend with a Fridge being
                   <ArrowRight className="ml-1.5 h-5 w-5" />
                 </Link>
               </>
