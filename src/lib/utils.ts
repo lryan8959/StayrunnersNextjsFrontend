@@ -16,8 +16,8 @@ export const formatPrice = (price: number) => {
 };
 
 export function constructMetadata({
-  title = "Last Minute Booking - high service low price",
-  description = "Book a room in affordable prices in seconds",
+  title = "Stay Runners - high service low price",
+  description = "Find any Product in affordable prices in seconds",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
 }: {

@@ -166,7 +166,7 @@ export default function Home() {
                 <div className="flex flex-col justify-between items-center md:items-start">
                   <p className="mb-4">Looking to offer delivery services?</p>
                   <Link
-                    href="/runners/signup"
+                    href="/localhost/signup"
                     className={buttonVariants({
                       size: "sm",
                       className: "sm:flex items-center gap-1",
