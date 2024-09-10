@@ -66,13 +66,10 @@ const LoginPage = () => {
     } else {
       try {
         setLoading(true);
-        const res: AxiosResponse = await axios.post(
-          baseUrl+"/auth/login",
-          {
-            username: localhost.email,
-            password: localhost.password,
-          }
-        );
+        const res: AxiosResponse = await axios.post(baseUrl + "/auth/login", {
+          username: localhost.email,
+          password: localhost.password,
+        });
 
         if (res.status === 200) {
           if (res?.data?.token) {
@@ -189,7 +186,7 @@ const LoginPage = () => {
                     variant: "secondary",
                   })}
                 >
-                  Don't have any account?
+                  Don&apos;t have any account?
                 </Link>
               </div>
             </div>
